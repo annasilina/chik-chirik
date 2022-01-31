@@ -20,39 +20,59 @@
 		<section class="about">
 			<ul class="about__cards">
 				<li class="about__card">
-					<p class="about__tag"></p>
-					<h3 class="about__title"></h3>
-					<p class="about__text"></p>
+					<p class="about__tag">AI</p>
+					<h3 class="about__title">Умный интелект приложения</h3>
+					<p class="about__text">С помощью AI приложение анализирует картины мастеров и современных практиков рисования,
+						и достраивает картину за вас.</p>
 				</li>
 				<li class="about__card">
-					<p class="about__tag"></p>
-					<h3 class="about__title"></h3>
-					<p class="about__text"></p>
+					<p class="about__tag">Ч/Б и Цвет</p>
+					<h3 class="about__title">Рисуйте в любом стиле</h3>
+					<p class="about__text">Будь то карандашная каляка-маляка или цветное произведение, приложение поможет в любой ситуации.</p>
 				</li>
 			</ul>
 			<h3 class="section-title">Чик-чирик и ваша каляка превращается в изумительное произведение искусства.</h3>
 		</section>
 		<section class="gallery">
-			<div class="gallery__drawing gallery__drawing_number_one"></div>
-			<div class="gallery__drawing gallery__drawing_number_two"></div>
-			<div class="gallery__drawing gallery__drawing_number_three"></div>
+			<div class="gallery__drawing gallery__drawing_example_one"></div>
+			<div class="gallery__drawing gallery__drawing_example_two"></div>
+			<div class="gallery__drawing gallery__drawing_example_three"></div>
 		</section>
 		<section class="about">
 			<ul class="about__cards">
 				<li class="about__card">
-					<p class="about__tag"></p>
-					<h3 class="about__title"></h3>
-					<p class="about__text"></p>
+					<p class="about__tag">Быстро</p>
+					<h3 class="about__title">Проблем с рисованием — нет</h3>
+					<p class="about__text">Рисуйте в приложении доступными кистями: карандаш, маркер, линер, масляная кисть и многие другие...</p>
 				</li>
 				<li class="about__card">
-					<p class="about__tag"></p>
-					<h3 class="about__title"></h3>
-					<p class="about__text"></p>
+					<p class="about__tag">Просто</p>
+					<h3 class="about__title">Нарисовали, преобразовали, сохранили</h3>
+					<p class="about__text">Раз, два, три, больше нечего тут рассказать.</p>
 				</li>
 			</ul>
 			<h3 class="section-title">Качайте приложение и улучшайте свои художества, а потом хвастайтесь ими!</h3>
 		</section>
-		<form class="application-form"></form>
+		<section class="application">
+			<form class="application__form" name="application">
+				<h3 class="application__form-title">Хотите нам что-то посоветовать?</h3>
+				<h4 class="application__form-subtitle">Оставьте заявку и мы свяжемся с вами.</h4>
+				<fieldset class="application__input-container">
+					<label for="user-name"></label>
+					<input type="text" id="user-name" name="user-name" placeholder="Ваше Имя"
+								 class="application__form-item application__form-item_el_user-name">
+					<label for="email"></label>
+					<input type="email" id="email" name="email" placeholder="Контактный Email"
+								 class="application__form-item application__form-item_el_user-email">
+					<label for="message"></label>
+					<input type="text" id="message" name="message" placeholder="Сообщение"
+								 class="application__form-item application__form-item_el_message">
+				</fieldset>
+				<fieldset class="application__form-handlers">
+					<button type="submit" class="application__send-button">Оставить заявку</button>
+				</fieldset>
+			</form>
+		</section>
 	</main>
 	<footer class="footer">
 		<h3 class="footer__title">Хотите скачать приложение?</h3>
