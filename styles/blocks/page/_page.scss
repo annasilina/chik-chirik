@@ -1,5 +1,6 @@
 .page {
 	background-color: $primary-color;
 	font-family: $font-family;
-	width: calc(100% - 20px);
+	max-width: 1430px;
+	margin: 0 auto;
 }

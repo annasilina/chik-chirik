@@ -2,6 +2,7 @@
 	position: relative;
 	width: calc(100% - 20px);
 	margin: 0 auto;
+	box-sizing: border-box;
 
 	&__container {
 		border-radius: $border-radius;
@@ -9,7 +10,6 @@
 		margin-top: 10px;
 		padding-left: 160px;
 		color: $dark-block-text-color;
-		box-sizing: border-box;
 	}
 
 	&__logo {
@@ -22,19 +22,33 @@
 		margin: 30px 0;
 		font-weight: 700;
 		font-size: 60px;
-		line-height: 95%;
+		line-height: 1;
 		max-width: 650px;
 	}
 
 	&__subtitle {
-		@include zeroIndent;
+		padding: 0;
+		margin: 30px 0;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 1.19;
+		max-width: 450px;
+		opacity: .7;
+	}
+
+	&__button-info {
+		width: 240px;
+		color: $text-color;
+		background-color: $secondary-color;
+		text-align: center;
+		margin: 108px 0 130px;
+		border: none;
 	}
 
 	&__drawing {
 		width: 311px;
 		height: 630px;
-		background-image: url("../../../images/drawing-example-header.png");
-		background-size: contain;
+		background-image: url("../../../images/drawing-example-header.svg");
 		background-repeat: no-repeat;
 		position: absolute;
 		top: 40px;
