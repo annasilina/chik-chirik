@@ -7,17 +7,17 @@
 }
 
 @font-face {
-	src: url('../fonts/Inter-Desktop/Inter-Bold.otf') format('otf'),
-	url('../fonts/Inter-Desktop/Inter-Bold.woff2') format('woff2'),
-	url('../fonts/Inter-Desktop/Inter-Bold.woff') format('woff');
+	src: url('../fonts/Inter-Desktop/Inter-SemiBold.otf') format('otf'),
+	url('../fonts/Inter-Desktop/Inter-SemiBold.woff2') format('woff2'),
+	url('../fonts/Inter-Desktop/Inter-SemiBold.woff') format('woff');
 	font-family: 'Inter';
 	font-weight: 600;
 }
 
 @font-face {
-	src: url('../fonts/Inter-Desktop/Inter-SemiBold.otf') format('otf'),
-	url('../fonts/Inter-Desktop/Inter-SemiBold.woff2') format('woff2'),
-	url('../fonts/Inter-Desktop/Inter-SemiBold.woff') format('woff');
+	src: url('../fonts/Inter-Desktop/Inter-Bold.otf') format('otf'),
+	url('../fonts/Inter-Desktop/Inter-Bold.woff2') format('woff2'),
+	url('../fonts/Inter-Desktop/Inter-Bold.woff') format('woff');
 	font-family: 'Inter';
 	font-weight: 700;
 }
