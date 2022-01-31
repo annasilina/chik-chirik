@@ -1,0 +1,12 @@
+@import "../vendor/fonts.css";
+@import "../vendor/normalize.css";
+.page {
+  background-color: #e5e5e5;
+  font-family: "Inter", Arial, sans-serif;
+}
+
+.list {
+  list-style-type: none;
+}
+
+/*# sourceMappingURL=index.css.map */
