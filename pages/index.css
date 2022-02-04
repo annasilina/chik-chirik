@@ -6,7 +6,7 @@
 
 .button {
   border: none;
-  border-radius: 0.5rem;
+  border-radius: 8px;
   box-sizing: border-box;
 }
 .button:hover {
@@ -31,7 +31,7 @@
   box-sizing: border-box;
 }
 .header__container {
-  border-radius: 1.25rem;
+  border-radius: 20px;
   background-color: #222;
   margin-top: 0.625rem;
   padding-left: 10rem;
