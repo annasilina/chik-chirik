@@ -32,12 +32,12 @@
 }
 
 .header {
-  position: relative;
   width: calc(100% - 1.25rem);
   margin: 0 auto;
   box-sizing: border-box;
 }
 .header__container {
+  position: relative;
   border-radius: 20px;
   background-color: #222;
   margin-top: 0.625rem;
@@ -72,6 +72,7 @@
   padding: 0.94rem 4.7rem;
   background-color: #fff;
   font-weight: 600;
+  line-height: 1.5;
   text-align: center;
   color: #222;
 }
@@ -159,6 +160,62 @@
 }
 .gallery__drawing_example_three {
   background-image: url("../../../images/drawing-result-3.svg");
+}
+
+.footer {
+  width: calc(100% - 1.25rem);
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.footer__container {
+  position: relative;
+  margin: 7.5rem 0 0.625rem;
+  padding-left: 10rem;
+  border-radius: 20px;
+  background-color: #222;
+  color: #fff;
+  box-sizing: border-box;
+}
+.footer__title {
+  max-width: 460px;
+  padding: 3.75rem 0 1.25rem;
+  margin: 0;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 1.19;
+}
+.footer__subtitle {
+  max-width: 540px;
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.45;
+  opacity: 0.7;
+}
+.footer__button-soon {
+  width: 470px;
+  margin: 10.875rem 0 3.75rem;
+  padding: 0.94rem 4.7rem;
+  background-color: #fff;
+  font-weight: 600;
+  line-height: 1.5;
+  text-align: center;
+  color: #222;
+}
+.footer__button-soon:hover {
+  opacity: 1;
+}
+.footer__drawing {
+  width: 311px;
+  height: 500px;
+  background-image: url("../../../images/footer-drawing.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  filter: drop-shadow(0 4px 80px rgba(0, 0, 0, 0.25));
+  position: absolute;
+  top: -30px;
+  right: 220px;
 }
 
 /*# sourceMappingURL=index.css.map */

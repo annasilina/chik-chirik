@@ -1,62 +1,62 @@
-.header {
+.footer {
 	width: calc(100% - 1.25rem);
 	margin: 0 auto;
 	box-sizing: border-box;
 
 	&__container {
 		position: relative;
+		margin: 7.5rem 0 .625rem;
+		padding-left: 10rem;
 		border-radius: $block-border-radius;
 		background-color: $dark-block-color;
-		margin-top: .625rem;
-		padding-left: 10rem;
 		color: $dark-block-text-color;
 		box-sizing: border-box;
 	}
 
-	&__logo {
-		width: 40px;
-		margin: 1.875rem 0;
-	}
-
 	&__title {
-		max-width: 650px;
-		padding: 0;
-		margin: 1.875rem 0;
-		font-weight: 700;
-		font-size: 3.75rem;
-		line-height: 1.15;
+		max-width: 460px;
+		padding: 3.75rem 0 1.25rem;
+		margin: 0;
+		font-weight: 600;
+		font-size: 2rem;
+		line-height: 1.19;
 	}
 
 	&__subtitle {
-		max-width: 450px;
+		max-width: 540px;
 		padding: 0;
 		margin: 0;
 		font-weight: 400;
 		font-size: 1.125rem;
-		line-height: 1.4;
+		line-height: 1.45;
 		opacity: $text-opacity;
 	}
 
-	&__button-info {
-		width: 240px;
-		margin: 6.75rem 0 8.125rem;
+	&__button-soon {
+		width: 470px;
+		margin: 10.875rem 0 3.75rem;
 		padding: .94rem 4.7rem;
 		background-color: $button-color;
 		font-weight: 600;
 		line-height: 1.5;
 		text-align: center;
 		color: $button-text-color;
+
+		&:hover {
+			opacity: 1;
+		}
 	}
 
 	&__drawing {
 		width: 311px;
-		height: 630px;
-		background-image: url("../../../images/header-drawing.svg");
+		height: 500px;
+		background-image: url("../../../images/footer-drawing.svg");
 		background-repeat: no-repeat;
 		background-size: contain;
 		filter: $filter-shadow;
 		position: absolute;
-		top: 40px;
+		top: -30px;
 		right: 220px;
 	}
+
 }
