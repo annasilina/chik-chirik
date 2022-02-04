@@ -7,6 +7,14 @@
 }
 
 @font-face {
+	src: url('../fonts/Inter-Desktop/Inter-Medium.otf') format('otf'),
+	url('../fonts/Inter-Desktop/Inter-Medium.woff2') format('woff2'),
+	url('../fonts/Inter-Desktop/Inter-Medium.woff') format('woff');
+	font-family: 'Inter';
+	font-weight: 500;
+}
+
+@font-face {
 	src: url('../fonts/Inter-Desktop/Inter-SemiBold.otf') format('otf'),
 	url('../fonts/Inter-Desktop/Inter-SemiBold.woff2') format('woff2'),
 	url('../fonts/Inter-Desktop/Inter-SemiBold.woff') format('woff');

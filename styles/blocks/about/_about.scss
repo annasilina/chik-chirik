@@ -1,0 +1,60 @@
+.about {
+	width: calc(100% - 340px);
+	margin: 0 auto;
+	color: $text-color;
+
+	&__cards {
+		margin: 3.75rem 0 7.5rem;
+		display: grid;
+		grid-template-columns: repeat(auto-fit, 540px);
+		grid-column-gap: 20px;
+	}
+
+	&__card {
+		width: 540px;
+		padding: 2.5rem;
+		background-color: $secondary-color;
+		border-radius: $block-border-radius;
+		box-sizing: border-box;
+	}
+
+	&__tag {
+		padding: 0;
+		margin: 0;
+		opacity: .6;
+		font-weight: 500;
+		font-size: 1.125rem;
+		line-height: 1.1;
+	}
+
+	&__heading {
+		margin: 0;
+		padding: 1.25rem 0 0;
+		max-width: 460px;
+		font-weight: 600;
+		font-size: 2rem;
+	}
+
+	&__text {
+		margin: 0;
+		padding: 2.5rem 0 0;
+		max-width: 460px;
+		opacity: .6;
+		font-weight: 400;
+		font-size: 1rem;
+		line-height: 1.5;
+	}
+
+	&__text_indent_large {
+		padding-top: 4.7rem;
+	}
+
+	&__title {
+		margin: 0 0 7.5rem;
+		padding: 0;
+		max-width: 1103px;
+		font-weight: 600;
+		font-size: 3.75rem;
+		line-height: 1.15;
+	}
+}
