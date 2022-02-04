@@ -138,4 +138,26 @@
   line-height: 1.15;
 }
 
+.gallery {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 3.75rem;
+}
+.gallery__drawing {
+  width: 350px;
+  height: 709px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  filter: drop-shadow(0 4px 80px rgba(0, 0, 0, 0.25));
+}
+.gallery__drawing_example_one {
+  background-image: url("../../../images/drawing-result-1.svg");
+}
+.gallery__drawing_example_two {
+  background-image: url("../../../images/drawing-result-2.svg");
+}
+.gallery__drawing_example_three {
+  background-image: url("../../../images/drawing-result-3.svg");
+}
+
 /*# sourceMappingURL=index.css.map */

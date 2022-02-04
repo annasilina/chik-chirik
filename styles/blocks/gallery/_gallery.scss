@@ -1,1 +1,25 @@
-.
+.gallery {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 0 3.75rem;
+
+	&__drawing {
+		width: 350px;
+		height: 709px;
+		background-size: contain;
+		background-repeat: no-repeat;
+		filter: $filter-shadow;
+	}
+
+	&__drawing_example_one {
+		background-image: url("../../../images/drawing-result-1.svg");
+	}
+
+	&__drawing_example_two {
+		background-image: url("../../../images/drawing-result-2.svg");
+	}
+
+	&__drawing_example_three {
+		background-image: url("../../../images/drawing-result-3.svg");
+	}
+}
