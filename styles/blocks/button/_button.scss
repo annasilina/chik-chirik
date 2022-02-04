@@ -1,0 +1,12 @@
+.button {
+	border: none;
+	border-radius: $button-border-radius;
+	box-sizing: border-box;
+
+	&:hover {
+		cursor: pointer;
+		opacity: .8;
+		transition: opacity .3s;
+	}
+}
+
