@@ -53,6 +53,7 @@
 		background-image: url("../../../images/header-drawing.svg");
 		background-repeat: no-repeat;
 		background-size: contain;
+		filter: $filter-shadow;
 		position: absolute;
 		top: 40px;
 		right: 220px;
