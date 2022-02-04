@@ -26,6 +26,11 @@
   font-size: 16px;
 }
 
+.content {
+  width: calc(100% - 340px);
+  margin: 0 auto;
+}
+
 .header {
   position: relative;
   width: calc(100% - 1.25rem);
@@ -82,8 +87,6 @@
 }
 
 .about {
-  width: calc(100% - 340px);
-  margin: 0 auto;
   color: #111;
 }
 .about__cards {
