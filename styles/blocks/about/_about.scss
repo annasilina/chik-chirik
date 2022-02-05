@@ -5,7 +5,8 @@
 		margin: 3.75rem 0 7.5rem;
 		display: grid;
 		grid-template-columns: repeat(auto-fit, 540px);
-		grid-column-gap: 20px;
+		gap: 20px;
+		justify-content: center;
 	}
 
 	&__card {

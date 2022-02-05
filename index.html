@@ -59,25 +59,21 @@
 			</ul>
 			<h3 class="about__title">Качайте приложение и улучшайте свои художества, а потом хвастайтесь ими!</h3>
 		</section>
-		<section class="application">
-			<form class="application__form" name="application">
-				<h3 class="application__form-title">Хотите нам что-то посоветовать?</h3>
-				<h4 class="application__form-subtitle">Оставьте заявку и мы свяжемся с вами.</h4>
-				<fieldset class="application__input-container">
-					<label for="user-name"></label>
-					<input type="text" id="user-name" name="user-name" placeholder="Ваше Имя"
-								 class="application__form-item application__form-item_el_user-name">
-					<label for="email"></label>
-					<input type="email" id="email" name="email" placeholder="Контактный Email"
-								 class="application__form-item application__form-item_el_user-email">
-					<label for="message"></label>
-					<input type="text" id="message" name="message" placeholder="Сообщение"
-								 class="application__form-item application__form-item_el_message">
+		<section class="form">
+			<h3 class="form__title">Хотите нам что-то посоветовать?</h3>
+			<h4 class="form__subtitle">Оставьте заявку и мы свяжемся с вами.</h4>
+			<form class="form__application" name="application">
+				<fieldset class="form__input-container">
+					<input type="text" placeholder="Ваше Имя"
+								 class="form__item form__item_el_user-name">
+					<input type="email" placeholder="Контактный Email"
+								 class="form__item form__item_el_user-email">
+					<textarea type="text" placeholder="Сообщение"
+										class="form__item form__item_el_message"></textarea>
 				</fieldset>
-				<fieldset class="application__form-handlers">
-
+				<fieldset class="form__handlers">
+					<button type="submit" class="form__button-send button button_active">Оставить заявку</button>
 				</fieldset>
-				<button type="button" class="application__button-send button button_active">Оставить заявку</button>
 			</form>
 		</section>
 	</main>

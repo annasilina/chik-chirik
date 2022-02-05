@@ -66,7 +66,7 @@
   font-weight: 400;
   font-size: 1.125rem;
   line-height: 1.4;
-  opacity: 0.7;
+  opacity: 0.6;
 }
 .header__button-info {
   width: 240px;
@@ -97,7 +97,8 @@
   margin: 3.75rem 0 7.5rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, 540px);
-  grid-column-gap: 20px;
+  gap: 20px;
+  justify-content: center;
 }
 .about__card {
   width: 540px;
@@ -164,6 +165,93 @@
   background-image: url("../../../images/drawing-result-3.svg");
 }
 
+.form {
+  background-color: #f8f8f8;
+  color: #111;
+  border-radius: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form__title {
+  margin: 0;
+  padding: 3.75rem 0 1.25rem;
+  max-width: 500px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+.form__subtitle {
+  margin: 0;
+  padding: 0 0 6.25rem;
+  max-width: 500px;
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.5;
+  opacity: 0.6;
+}
+.form__application {
+  width: calc(100% - 120px);
+}
+.form__input-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 470px);
+  grid-column-gap: 40px;
+  grid-row-gap: 20px;
+  justify-content: center;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.form__item {
+  padding: 0.9375rem 1.25rem;
+  margin: 0;
+  border: none;
+  border-radius: 8px;
+  font-family: inherit;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.form__item::placeholder {
+  font-family: inherit;
+  font-weight: 400;
+  line-height: 1.5;
+  opacity: 0.3;
+}
+.form__item:hover {
+  outline: solid 1px #e4e4e4;
+  border: 0;
+  cursor: pointer;
+}
+.form__item:focus {
+  outline: solid 1px #e4e4e4;
+  border: 0;
+}
+.form__item:focus::placeholder {
+  color: transparent;
+}
+.form__item_el_message {
+  padding-bottom: 5.63rem;
+  grid-column: 1/-1;
+  resize: none;
+}
+.form__handlers {
+  border: none;
+  padding: 0;
+  margin: 1.875rem 0 3.75rem;
+  display: flex;
+  justify-content: flex-end;
+}
+.form__button-send {
+  padding: 0.9375rem 1.25rem;
+  width: 194px;
+  background-color: #222;
+  color: #fff;
+}
+
 .footer {
   width: calc(100% - 1.25rem);
   margin: 0 auto;
@@ -193,7 +281,7 @@
   font-weight: 400;
   font-size: 1.125rem;
   line-height: 1.45;
-  opacity: 0.7;
+  opacity: 0.6;
 }
 .footer__button-soon {
   width: 470px;
