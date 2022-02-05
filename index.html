@@ -16,13 +16,13 @@
 			<img class="header__logo" src="images/logo.svg" alt="логотип приложения">
 			<h1 class="header__title">Не умеете рисовать? Не беда!</h1>
 			<h2 class="header__subtitle">С помощью нашего приложения вы можете чиркануть каляку и получить шедевр.</h2>
-			<button type=button class="header__button-info button">Подробнее</button>
+			<a href="#more-info"><button type=button class="header__button-info button button_active">Подробнее</button></a>
 			<div class="header__drawing"></div>
 		</div>
 	</header>
 	<main class="content">
 		<section class="about">
-			<ul class="about__cards list">
+			<ul class="about__cards list" id="more-info">
 				<li class="about__card">
 					<p class="about__tag">AI</p>
 					<h3 class="about__heading">Умный интелект приложения</h3>
@@ -36,7 +36,8 @@
 						приложение поможет в любой ситуации.</p>
 				</li>
 			</ul>
-			<h3 class="about__title">Чик-чирик и ваша каляка превращается в изумительное произведение искусства.</h3>
+			<h3 class="about__title">Чик-чирик и ваша каляка превращается в изумительное произведение
+			искусства.</h3>
 		</section>
 		<section class="gallery">
 			<div class="gallery__drawing gallery__drawing_example_one"></div>
@@ -74,8 +75,9 @@
 								 class="application__form-item application__form-item_el_message">
 				</fieldset>
 				<fieldset class="application__form-handlers">
-					<button type="submit" class="application__send-button button">Оставить заявку</button>
+
 				</fieldset>
+				<button type="button" class="application__button-send button button_active">Оставить заявку</button>
 			</form>
 		</section>
 	</main>
@@ -87,5 +89,6 @@
 			<div class="footer__drawing"></div>
 		</div>
 	</footer>
+	<script src="scripts/index.js"></script>
 </body>
 </html>

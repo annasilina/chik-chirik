@@ -13,8 +13,10 @@
 }
 .button:hover {
   cursor: pointer;
-  opacity: 0.8;
-  transition: opacity 0.3s;
+}
+.button_active:active {
+  opacity: 0.7;
+  transition: opacity 0.2s;
 }
 
 .page {
@@ -202,9 +204,6 @@
   line-height: 1.5;
   text-align: center;
   color: #222;
-}
-.footer__button-soon:hover {
-  opacity: 1;
 }
 .footer__drawing {
   width: 311px;
