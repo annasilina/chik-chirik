@@ -7,6 +7,10 @@
 		grid-template-columns: repeat(auto-fit, 540px);
 		gap: 20px;
 		justify-content: center;
+
+		@include preTabletStyles {
+			margin-top: 70px;
+		}
 	}
 
 	&__card {
