@@ -1,25 +1,80 @@
 .gallery {
-	display: flex;
-	justify-content: space-between;
-	padding: 0 0 3.75rem;
+	width: calc(100% - #{$desktopIndent + $globalIndent} * 2);
+	margin: 0 auto;
+
+	@include mobileStyles {
+		width: calc(100% - #{$globalIndent} * 2);
+	}
+
+	&__slider-list {
+		@include mobileStyles {
+			width: 260px;
+			height: 522px;
+			overflow: hidden;
+			filter: drop-shadow(0 4px 60px rgba(0, 0, 0, 0.25));;
+			margin: auto;
+			padding-top: 70px;
+			padding-bottom: 94px;
+			user-select: none;
+			touch-action: pan-y;
+		}
+	}
+
+	&__slider-track {
+		width: 100%;
+		padding: 0 0 3.75rem;
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(226px, max-content));
+		column-gap: 25px;
+
+		@include mobileStyles {
+			display: flex;
+			grid-template-columns: unset;
+			column-gap: unset;
+			padding: 0;
+			transform: translate3d(0, 0, 0);
+		}
+	}
+
+	&__slide {
+		@include mobileStyles {
+			flex-shrink: 0;
+		}
+	}
 
 	&__drawing {
-		width: 350px;
-		height: 709px;
-		background-size: contain;
-		background-repeat: no-repeat;
+		max-width: 100%;
+		object-fit: contain;
 		filter: $filter-shadow;
+
+		@include mobileStyles {
+			width: 260px;
+			height: 522px;
+			filter: unset;
+			pointer-events: none;
+		}
 	}
 
-	&__drawing_example_one {
-		background-image: url("../../../images/drawing-result-1.svg");
+	&__slider-dots {
+		display: none;
+
+		@include mobileStyles {
+			margin-top: 20px;
+			display: flex;
+			justify-content: center;
+		}
 	}
 
-	&__drawing_example_two {
-		background-image: url("../../../images/drawing-result-2.svg");
+	&__slider-dot_next {
+		width: 4px;
+		height: 4px;
+		background-image: url("../../../images/unactive-dot.svg");
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-color: inherit;
 	}
 
-	&__drawing_example_three {
-		background-image: url("../../../images/drawing-result-3.svg");
+	&__slider-dot_prev {
+		background-image: url("../../../images/active-dot.svg");
 	}
 }

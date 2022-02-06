@@ -35,7 +35,6 @@
 		@include mobileStyles {
 			align-self: flex-start;
 			padding-left: calc((100% - 260px)/2);
-			margin-top: 1.25rem;
 		}
 	}
 
@@ -59,10 +58,6 @@
 		@include preMobileStyles {
 			max-width: 260px;
 			font-size: 1.5rem;
-		}
-
-		@include mobileStyles {
-			margin-bottom: .875rem;
 		}
 	}
 

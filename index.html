@@ -21,7 +21,7 @@
 		</div>
 	</header>
 	<main class="content">
-		<section class="about">
+		<!--<section class="about">
 			<ul class="about__cards list" id="more-info">
 				<li class="about__card">
 					<p class="about__tag">AI</p>
@@ -38,13 +38,23 @@
 			</ul>
 			<h3 class="about__title">Чик-чирик и ваша каляка превращается в изумительное произведение
 			искусства.</h3>
-		</section>
+		</section>-->
 		<section class="gallery">
-			<div class="gallery__drawing gallery__drawing_example_one"></div>
-			<div class="gallery__drawing gallery__drawing_example_two"></div>
-			<div class="gallery__drawing gallery__drawing_example_three"></div>
+			<div class="gallery__slider-list">
+				<ul class="gallery__slider-track list">
+					<li
+						class="gallery__slide"><img class="gallery__drawing" src="images/drawing-result-1.svg"
+																			alt="пример рисунка"></li>
+					<li class="gallery__slide"><img class="gallery__drawing" src="images/drawing-result-2.svg" alt="пример рисунка"></li>
+					<li class="gallery__slide"><img class="gallery__drawing" src="images/drawing-result-3.svg" alt="пример рисунка"></li>
+				</ul>
+				<div class="gallery__slider-dots">
+					<button class="gallery__slider-dot gallery__slider-dot_prev button"></button>
+					<button class="gallery__slider-dot gallery__slider-dot_next button"></button>
+				</div>
+			</div>
 		</section>
-		<section class="about">
+		<!--<section class="about">
 			<ul class="about__cards list">
 				<li class="about__card">
 					<p class="about__tag">Быстро</p>
@@ -75,16 +85,16 @@
 					<button type="submit" class="form__button-send button button_active">Оставить заявку</button>
 				</fieldset>
 			</form>
-		</section>
+		</section>-->
 	</main>
-	<footer class="footer">
+	<!--<footer class="footer">
 		<div class="footer__container">
 			<h3 class="footer__title">Хотите скачать приложение?</h3>
 			<h4 class="footer__subtitle">Качайте в ЭпСтор и ГуглПлэй.</h4>
 			<button type=button class="footer__button-soon button">Уже скоро!</button>
 			<div class="footer__drawing"></div>
 		</div>
-	</footer>
+	</footer>-->
 	<script src="scripts/index.js"></script>
 </body>
 </html>

@@ -1,20 +1,18 @@
 .about {
 	color: $text-color;
+	width: calc(100% - #{$desktopIndent + $globalIndent} * 2);
+	margin: 0 auto;
+
 
 	&__cards {
 		margin: 3.75rem 0 7.5rem;
 		display: grid;
-		grid-template-columns: repeat(auto-fit, 540px);
+		grid-template-columns: repeat(auto-fit, minmax(300px, max-content));
 		gap: 20px;
 		justify-content: center;
-
-		@include preTabletStyles {
-			margin-top: 70px;
-		}
 	}
 
 	&__card {
-		width: 540px;
 		padding: 2.5rem;
 		background-color: $secondary-color;
 		border-radius: $block-border-radius;
